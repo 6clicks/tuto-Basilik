@@ -1,5 +1,63 @@
 [
     {
+        "key": "group_5b05655fc9a44",
+        "title": "Basilik",
+        "fields": [
+            {
+                "key": "field_5b0577f44b82f",
+                "label": "logo",
+                "name": "logo_site",
+                "type": "file",
+                "instructions": "logo du site .svg",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "array",
+                "library": "all",
+                "min_size": "",
+                "max_size": "",
+                "mime_types": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "options_page",
+                    "operator": "==",
+                    "value": "theme-general-settings"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": [
+            "permalink",
+            "the_content",
+            "excerpt",
+            "custom_fields",
+            "discussion",
+            "comments",
+            "revisions",
+            "slug",
+            "author",
+            "format",
+            "page_attributes",
+            "featured_image",
+            "categories",
+            "tags",
+            "send-trackbacks"
+        ],
+        "active": 1,
+        "description": ""
+    },
+    {
         "key": "group_58457576deb89",
         "title": "Contenu Home",
         "fields": [
@@ -1162,7 +1220,7 @@
                 "key": "field_575966d3993bb",
                 "label": "Galerie Image 2",
                 "name": "galerie_image_2",
-                "type": "image",
+                "type": "wysiwyg",
                 "instructions": "",
                 "required": 0,
                 "conditional_logic": [
@@ -1193,16 +1251,11 @@
                     "class": "",
                     "id": ""
                 },
-                "return_format": "url",
-                "preview_size": "large",
-                "library": "all",
-                "min_width": 0,
-                "min_height": 0,
-                "min_size": 0,
-                "max_width": 0,
-                "max_height": 0,
-                "max_size": 0,
-                "mime_types": ""
+                "default_value": "",
+                "tabs": "all",
+                "toolbar": "full",
+                "media_upload": 1,
+                "delay": 0
             },
             {
                 "key": "field_5787498649afc",
