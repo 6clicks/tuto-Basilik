@@ -19,11 +19,11 @@ wp_add_dashboard_widget('custom_help_widget', '!! Ne pas oublier !!', 'custom_da
 
 function custom_dashboard_help() {
 echo '
-<img src="https://github.com/6clicks/tuto-Basilik/blob/master/Basilik-home-ACF.json">
+<img src="https://raw.githubusercontent.com/6clicks/tuto-snow/master/logo-925.png"> 
 <h2>tutorial pour installer Basilik </h2>
 <ol>
 <li> une fois installé le thème vous pouvez masquer cette fenêtre avec les option d\'écrant</li>
-<li> Importer les ACF pour la home <a href="https://raw.githubusercontent.com/6clicks/tuto-snow/master/acf-images-responsive.json" target="_blanc">télécharger ce fichier </a> et l\' importer dans ACF / outils	</li>
+<li> Importer les ACF pour la home <a href="https://github.com/6clicks/tuto-Basilik/blob/master/Basilik-home-ACF.json" target="_blanc">télécharger ce fichier </a> et l\' importer dans ACF / outils	</li>
 <li> Changer le logo dabs les option du theme.  </li>
 </ol>
 <br>
